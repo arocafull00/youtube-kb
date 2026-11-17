@@ -103,9 +103,14 @@ export function slugify(s, max = 70) {
     .replace(/-+$/g, '');
 }
 
-// Nombre seguro para archivos/carpetas de Windows conservando mayúsculas y espacios.
+// Nombre seguro para archivos de Windows y enlaces de Obsidian ([[...]] no admite [ ] # ^ |).
 export function nombreSeguro(s) {
-  return s.replace(/[<>:"/\\|?*\x00-\x1f]/g, '').replace(/\s+/g, ' ').trim().replace(/[. ]+$/, '');
+  return s
+    .replace(/[<>:"/\\|?*\x00-\x1f#^]/g, '')
+    .replace(/[\[\]]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/[. ]+$/, '');
 }
 
 export function hms(seg) {
