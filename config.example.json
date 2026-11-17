@@ -1,0 +1,19 @@
+{
+  "vault": "C:\\Ruta\\a\\tu\\Obsidian Vault",
+  "carpeta_vault": "YouTube",
+  "pausa_segundos": 8,
+  "canales": [
+    {
+      "slug": "hormozi",
+      "nombre": "Alex Hormozi",
+      "url": "https://www.youtube.com/@AlexHormozi",
+      "idioma": "en",
+      "palabras_clave": [
+        "brand", "content", "social media", "audience", "linkedin", "tiktok",
+        "lead", "leads", "client", "clients", "customer", "customers", "cold", "outreach",
+        "marketing", "offer", "offers", "pricing", "sell", "sales", "closing",
+        "service", "agency", "b2b", "referral", "small business", "niche", "positioning"
+      ]
+    }
+  ]
+}

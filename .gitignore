@@ -1,0 +1,8 @@
+# Configuración local (ruta del vault)
+config.json
+
+# Subtítulos, metadatos y estado descargados
+data/
+
+node_modules/
+*.tmp

@@ -1,0 +1,13 @@
+{
+  "name": "youtube-kb",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Descarga subtítulos de canales de YouTube y los guarda como notas Markdown en un vault de Obsidian.",
+  "type": "module",
+  "scripts": {
+    "catalogo": "node src/catalogo.js",
+    "descargar": "node src/descargar.js",
+    "convertir": "node src/convertir.js",
+    "vault": "node src/vault.js"
+  }
+}
